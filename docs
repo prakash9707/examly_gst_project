@@ -1,0 +1,8 @@
+npm install express --save
+npm install hbs --save
+[hbs-- handlebars]
+create a folder named "views" that is must in node js that contains every templating file..
+hbs is responsible to call every hbs file in views folder
+'git init' is a terminal command use to create a folder in project
+'git status' is a command which is use to know which is keep tracking with git
+'git add filename' is a command use to tell the git to keep track this file
