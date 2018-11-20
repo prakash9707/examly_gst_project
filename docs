@@ -6,3 +6,15 @@ hbs is responsible to call every hbs file in views folder
 'git init' is a terminal command use to create a folder in project
 'git status' is a command which is use to know which is keep tracking with git
 'git add filename' is a command use to tell the git to keep track this file
+
+ssh keys are used for securely communicate between two machines
+
+ssh-keygen -t rsa -b 4096 -C 'prakashpp666666@gmail.com' is used for generating ssh keys to command with our machine to github
+
+eval "$(ssh-agent -s)" is used to check wheather ssh keys are properly configured (Start the ssh-agent in the background.)
+
+ssh-add ~/.ssh/id_rsa is tells that machine knows that keys and ready to communicate with third party server like github
+(Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing
+ key that has a different name, replace id_rsa in the command with the name of your private key file.)
+
+'ssh -T git@github.com' is used to check wheather ssh keys are properly configured on github..
