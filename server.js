@@ -15,10 +15,10 @@ app.use((req, res, next) => {           // this is express middleware that used 
   next();
 });
 
-app.use((req, res, next) => {
-  res.render('maintainence.hbs');
-
-});
+// app.use((req, res, next) => {
+//   res.render('maintainence.hbs');
+//
+// });
 
 hbs.registerHelper('ch', () => {
   return 'help';
@@ -43,6 +43,12 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('about.hbs',{
     str:'string',
+  });
+});
+
+app.get('/project', (req, res) => {
+  res.render('project.hbs',{
+    projecttitle:'super project',
   });
 });
 
