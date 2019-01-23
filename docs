@@ -20,4 +20,4 @@ ssh-add ~/.ssh/id_rsa is tells that machine knows that keys and ready to communi
 'ssh -T git@github.com' is used to check wheather ssh keys are properly configured on github..
 
 Heroku is used to host on web.
-it supports multiple languages
+it supports multiple languagesdffdfdsfdsds
